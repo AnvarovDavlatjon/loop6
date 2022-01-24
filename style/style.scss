@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(87, 110, 131, 0.986);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    max-width:1000px ;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.left{
+    width: 60%;
+    padding-left: 30px ;
+    padding-right: 30px ;
+}
+
+.right{
+    width: 40%;
+    background-image: url('../images/side.jpg');
+    flex-grow: 1;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+
+}
+
+// ........... //
+.site-heading-div {
+    margin-bottom: 50px;
+}
+.site-head-h1 {
+    margin-bottom: 7px;
+    padding-top: 50px;
+   
+    font-weight: 300;
+}
+.site-head-text {
+    margin-top: 0;
+    color: grey;
+
+}
+.site-main-div {
+}
+.site-main-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.site-main-item {
+    border: 1px solid rgb(223, 217, 217);
+    display: flex;
+    align-items: center;
+    padding:20px;
+    border-radius: 8px;
+
+}
+
+.site-main-item:not(:last-child){
+    margin-bottom: 30px;
+
+}
+
+.site-main-logo {
+    margin-right: 150px;
+   
+}
+.site-main-span {
+  color: grey;
+}
+.site-footer-div {
+    padding-bottom: 15px;
+    display: flex;
+    margin-top: 50px;
+    border-top: 1px solid rgb(223, 217, 217);
+}
+.site-footer-h4 {
+    margin-right: 70px;
+    color: rgb(46, 45, 45);
+}
+.site-h4-footer {
+      color: rgba(0, 0, 0, 0.349);
+}
